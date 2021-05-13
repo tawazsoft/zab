@@ -1,0 +1,153 @@
+.event {
+    @media(max-width:767px) {
+        text-align: center;
+    }
+
+    h5 {
+        margin-top: 5%;
+    }
+
+    h2 {
+        margin-bottom: 5%;
+    }
+
+    .pic {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.719)), url("../img/event1.png");
+        max-height: 467px;
+        background-size: cover;
+        border-radius: 3px;
+        padding: 3%;
+
+        @media(max-width:767px) {
+            margin-bottom: 25px;
+        }
+
+        .text {
+            height: 100%;
+            width: 100%;
+            border: 1px solid white;
+            border-radius: 3px;
+            padding: 44px 36px;
+            font-weight: 700;
+            color: white;
+
+            @media(max-width:767px) {
+                padding: 44px 30px;
+            }
+
+            h3 {
+                font-size: 36px;
+            }
+
+            label {
+                font-size: 18px;
+                margin: 14px 0 33px 0;
+            }
+
+            p {
+                color: $red;
+                font-size: 18px;
+
+                @media(max-width:767px) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .pic1 {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.719)), url("../img/event2.png");
+        height: 221px;
+        background-size: cover;
+        border-radius: 3px;
+        padding: 1.5%;
+        margin-bottom: 25px;
+
+        .text {
+            height: 100%;
+            width: 100%;
+            border: 1px solid white;
+            border-radius: 3px;
+            padding: 44px 36px;
+            font-weight: 700;
+            color: white;
+
+            h3 {
+                font-size: 36px;
+            }
+
+            label {
+                font-size: 18px;
+                margin: 14px 0 33px 0;
+            }
+        }
+
+    }
+
+    .pic2 {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.719)), url("../img/event3.png");
+        height: 221px;
+        background-size: cover;
+        border-radius: 3px;
+        padding: 1.5%;
+
+        .text {
+            height: 100%;
+            width: 100%;
+            border: 1px solid white;
+            border-radius: 3px;
+            padding: 44px 36px;
+            font-weight: 700;
+            color: white;
+
+            h3 {
+                font-size: 36px;
+                padding-bottom: 14px;
+            }
+
+            label {
+                font-size: 18px;
+                margin: 14px 0 33px 0;
+            }
+        }
+    }
+
+    .old {
+
+        .pic {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.719)), url("../img/event3.png");
+            height: 275px;
+            background-size: cover;
+            border-radius: 3px;
+            padding: 1.5%;
+            margin-bottom: 38px;
+        }
+
+        .text {
+            height: 100%;
+            width: 100%;
+            border: 1px solid white;
+            border-radius: 3px;
+            padding: 44px 36px;
+            font-weight: 700;
+            color: white;
+        }
+
+        p {
+            font-size: 21px;
+            font-weight: 700;
+
+            @media(max-width:1000px) {
+                font-size: 15px;
+                line-height: 20px;
+            }
+
+            &:last-child {
+                @media(max-width:767px) {
+                    margin: 0px 0 60px;
+                }
+            }
+        }
+    }
+
+}

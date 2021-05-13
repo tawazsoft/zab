@@ -1,0 +1,23 @@
+footer{
+    background: $darkBlue;color:white;padding:5% 17%;
+    @media(max-width:767px){
+        text-align: center;padding:5% 0;
+    }
+    h3{
+        text-transform: uppercase;margin: 18px 0;
+    }
+    ul{
+        li{
+                margin:2% 0;text-transform:capitalize;
+            a{
+                text-decoration: none;color:white;
+                &:hover{
+                    text-decoration: none;color:$lightBlue;
+                }
+            }
+        }
+    }
+    h4{
+     text-align: center;   font-size: 14px;font-weight: 700;padding-top:79px ;
+    }
+}
