@@ -93,6 +93,7 @@ header {
     background: $grey;
     text-transform: uppercase;
     height: 50px;
+    z-index: 1;
 
     @media(max-width:767px) {
         height: auto;
