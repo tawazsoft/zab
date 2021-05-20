@@ -208,6 +208,7 @@ header .btn a:last-child {
   background: #F8F8F8;
   text-transform: uppercase;
   height: 50px;
+  z-index: 3;
 }
 
 @media (max-width: 767px) {
